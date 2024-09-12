@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Week 3 - Day 2</title>
+  </head>
+  <body>
+    <!-- Put Code Here -->
+    <form action="https://wp.zybooks.com/form-viewer.php" method="post">
+      <!-- Full Name -->
+      <div>
+        <label for="fullname">Fullname:</label>
+        <input type="text" name="fullname" id="fullname" required />
+      </div>
+
+      <!-- Medical Info -->
+      <fieldset>
+        <legend>Medical Info</legend>
+
+        <!-- Blood Type -->
+        <div>
+          <label for="bloodtype">Blood Type:</label>
+          <select name="bloodtype" id="bloodtype">
+            <!-- Put your select options -->
+            <option value="">--</option>
+            <option value="a positive">A+</option>
+            <option value="a negative">A-</option>
+            <option value="b positive">B+</option>
+            <option value="b negative">B-</option>
+            <option value="ab positive">AB+</option>
+            <option value="ab negative">AB-</option>
+            <option value="o positive">O+</option>
+            <option value="o negative">O-</option>
+          </select>
+        </div>
+
+        <!-- Height -->
+        <div>
+          <label for="height">Height (meters):</label>
+          <input type="number" name="height" id="height" step=".01" />
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Health Concerns</legend>
+
+        <div>
+          <input
+            type="checkbox"
+            name="healthconcerns"
+            value="Missing Limb"
+            id="missinglimb"
+          />
+          <label for="missinglimb">Missing Limb</label>
+        </div>
+
+        <div>
+          <input
+            type="checkbox"
+            name="healthconcerns"
+            value="Drained of All Blood"
+            id="drainedblood"
+          />
+          <label for="drainedblood">Drained of All Blood</label>
+        </div>
+
+        <div>
+          <input
+            type="checkbox"
+            name="healthconcerns"
+            value="Only my Head is Lost in a Forest"
+            id="headinforest"
+          />
+          <label for="headinforest"
+            >My Head is Lost and Afraid in a Forest by itself</label
+          >
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Describe Your Pain Level</legend>
+
+        <div>
+          <input type="radio" name="painlevel" id="painlevel-high" />
+          <label for="painlevel-high">High</label>
+        </div>
+
+        <div>
+          <input type="radio" name="painlevel" id="painlevel-medium" />
+          <label for="painlevel-medium">Medium</label>
+        </div>
+
+        <div>
+          <input type="radio" name="painlevel" id="painlevel-low" />
+          <label for="painlevel-low">Unbearable Low</label>
+        </div>
+      </fieldset>
+
+      <!-- Submit Button -->
+      <div>
+        <input type="submit" value="Get Results" />
+        <input type="reset" value="Clear" />
+      </div>
+    </form>
+  </body>
+</html>
