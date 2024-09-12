@@ -9,7 +9,11 @@
     <!-- PUT CODE HERE -->
     <h1>HTML Form</h1>
 
-    <form action="success.html" method="get">
+    <form
+      action="https://wp.zybooks.com/form-viewer.php"
+      method="get"
+      enctype="multipart/form-data"
+    >
       <div>
         <label for="fullname">Name:</label>
         <input type="text" id="fullname" name="fullname" required />
@@ -18,6 +22,11 @@
       <div>
         <label for="email">Email:</label>
         <input type="email" id="email" name="email" required />
+      </div>
+
+      <div>
+        <label for="pic">Picture:</label>
+        <input type="file" id="pic" name="pic" required accept="image/*" />
       </div>
 
       <div>
@@ -48,6 +57,7 @@
       </div>
 
       <div>
+        <input type="submit" value="Add to List" />
         <button type="submit">Add to List</button>
       </div>
     </form>
