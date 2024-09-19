@@ -26,7 +26,7 @@ Steps to add another Link on readme
    ![add-link-step-2](images/add-link-step-2.png)
 
 4. Right click then select copy relative path
-   ![add-link-step-3](images/add-link-step3.png)
+   ![add-link-step-3](images/add-link-step-3.png)
 
 5. Paste relative path after base url for that project name like:
    https://tstreets.github.io/i210/week4/lab-2/index.html
