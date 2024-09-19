@@ -11,3 +11,6 @@ https://tstreets.github.io/i210/week4/index.html
 
 Week 4 Lab 2
 https://tstreets.github.io/i210/week4/lab-2
+
+Random File:
+https://tstreets.github.io/i210/week4/blah/other.html
