@@ -23,10 +23,10 @@ Steps to add another Link on readme
    https://tstreets.github.io/i210/
 
 3. Navigate to main file in vs code for that project
-   [images/add-link-step-2.png]
+   !(add-link-step-2)[images/add-link-step-2.png]
 
 4. Right click then select copy relative path
-   [images/add-link-step3.png]
+   !(add-link-step-3)[images/add-link-step3.png]
 
 5. Paste relative path after base url for that project name like:
    https://tstreets.github.io/i210/week4/lab-2/index.html
