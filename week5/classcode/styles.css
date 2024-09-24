@@ -1,0 +1,49 @@
+.box {
+  height: 100px;
+  width: 100px;
+  background-color: lightgrey;
+  border: 1px solid black;
+}
+
+.red {
+  background-color: red;
+}
+
+nav {
+  background-color: navy;
+  height: 50px;
+  display: flex;
+  /* flex-direction can change from row to columnd */
+  flex-direction: row;
+
+  /* justify-content move your elements horizontally */
+  justify-content: space-evenly;
+
+  /* align-items move vertically */
+  align-items: center;
+}
+
+nav a {
+  color: white;
+}
+
+footer {
+  background-color: navy;
+  height: 200px;
+  display: flex;
+  /* flex-direction can change from row to column */
+  flex-direction: column;
+
+  /* justify-content move your elements horizontally */
+  justify-content: space-evenly;
+
+  /* align-items move vertically */
+  align-items: flex-start;
+
+  /* flex-wrap */
+  flex-wrap: wrap;
+}
+
+footer a {
+  color: white;
+}
