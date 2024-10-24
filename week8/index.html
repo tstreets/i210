@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Week 8</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header id="banner">
+      <h1>JS Fundamentals</h1>
+    </header>
+    <section>
+      <h4>Math Calculations</h4>
+      <p>Area = pi*r*r</p>
+    </section>
+
+    <section>
+      <h4>Convert Inches to Feet</h4>
+      <div>
+        <label for="inches">Inches:</label>
+        <input
+          type="text"
+          id="inches"
+          name="inches"
+          placeholder="Enter inches"
+        />
+      </div>
+      <p id="feet"></p>
+      <button onclick="convertInchToFeet()">Convert</button>
+    </section>
+
+    <script src="math.js"></script>
+  </body>
+</html>
