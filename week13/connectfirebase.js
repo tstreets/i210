@@ -6,4 +6,4 @@ import {
   addDoc,
 } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-firestore.js";
 
-const db = getFirestore();
+const db = getFirestore(app);
